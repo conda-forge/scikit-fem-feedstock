@@ -19,7 +19,7 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - meshio
+    - meshio >= 4.0.4
     - numpy
     - python >=3.6
     - scipy
