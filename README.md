@@ -5,7 +5,7 @@ Home: https://github.com/kinnala/scikit-fem
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Simple finite element assemblers
 
