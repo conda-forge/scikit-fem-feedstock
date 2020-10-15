@@ -5,11 +5,13 @@ Home: https://github.com/kinnala/scikit-fem
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/scikit-fem-feedstock/blob/master/LICENSE.txt)
 
 Summary: Simple finite element assemblers
 
+Development: https://github.com/kinnala/scikit-fem
 
+Documentation: https://kinnala.github.io/scikit-fem-docs
 
 Current build status
 ====================
