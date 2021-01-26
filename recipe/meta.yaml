@@ -1,5 +1,5 @@
 {% set name = "scikit-fem" %}
-{% set version = "2.3.0" %}
+{% set version = "2.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 494c9389f77a2bb720af94013a272619b5586ce3bf6413fa16d1aec513ef174b
+  sha256: b138b7fa636a0ba0a4fcde01ffdf37f7e2efa9ea61ae8adcc331c856d7774eb4
 
 build:
   number: 0
