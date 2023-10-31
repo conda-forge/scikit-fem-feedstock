@@ -1,5 +1,5 @@
 {% set name = "scikit-fem" %}
-{% set version = "3.2.0" %}
+{% set version = "8.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9fe0d67584067e422bb25a5c60df28fdf50d588b08b86b2746f32a0b02b36168
+  sha256: 6dbc2656f358e37180e92265b9ae8fac358ccd906a2be83337c178cc7a0c6972
 
 build:
   number: 0
@@ -17,11 +17,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
   run:
     - meshio >=4.0.4
     - numpy
-    - python >=3.6
+    - python >=3.7
     - scipy
 
 test:
@@ -50,10 +50,9 @@ about:
   license_family: BSD
   license_file: LICENSE.md
   summary: Simple finite element assemblers
-  doc_url: https://kinnala.github.io/scikit-fem-docs
+  doc_url: https://scikit-fem.readthedocs.io/en/latest/
   dev_url: https://github.com/kinnala/scikit-fem
 
 extra:
   recipe-maintainers:
     - kinnala
-    - tlestang
