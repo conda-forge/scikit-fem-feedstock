@@ -49,7 +49,7 @@ about:
   home: https://github.com/kinnala/scikit-fem
   license: BSD-3-Clause
   license_family: BSD
-  license_file: LICENSE.md
+  license_file: LICENSE
   summary: Simple finite element assemblers
   doc_url: https://kinnala.github.io/scikit-fem-docs
   dev_url: https://github.com/kinnala/scikit-fem
