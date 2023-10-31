@@ -36,7 +36,7 @@ test:
     - skfem.element.element_quad
     - skfem.element.element_tet
     - skfem.element.element_tri
-    - skfem.importers
+    - skfem.io
     - skfem.mapping
     - skfem.mesh
     - skfem.mesh.mesh2d
@@ -55,4 +55,5 @@ about:
 
 extra:
   recipe-maintainers:
+    - kinnala
     - tlestang
