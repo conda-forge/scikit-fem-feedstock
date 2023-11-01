@@ -40,8 +40,6 @@ test:
     - skfem.io
     - skfem.mapping
     - skfem.mesh
-    - skfem.mesh.mesh2d
-    - skfem.mesh.mesh3d
     - skfem.models
     - skfem.visuals
 
