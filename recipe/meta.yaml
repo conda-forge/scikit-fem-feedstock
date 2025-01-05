@@ -6,26 +6,28 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: 8448da3776bbd03a9660ef0de85c67e292de009f2226f405523c6e2388f6b0f3
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
 
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python {{ python_min }}
   run:
     - meshio >=4.0.4
     - numpy
-    - python >=3.7
+    - python >={{ python_min }}
     - scipy
     - matplotlib
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - skfem
     - skfem.assembly
